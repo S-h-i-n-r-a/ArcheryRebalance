@@ -6,6 +6,6 @@
 ``██░░░░░░██░░██░░██░░░░░░██░░██░░██░░██░░██░░██░░██``  
 ``██████████████████████████████████████████████████``  
 
-# ArcheryRebalance
+# Archery Rebalance
 A modlet for 7 Days to Die that makes bows more stealthy and crossbows more rambo-y.  
 Sneak up with your bow, and blast the crowds with your crossbow!
