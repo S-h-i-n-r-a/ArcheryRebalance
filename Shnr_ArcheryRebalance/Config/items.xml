@@ -52,7 +52,7 @@
 	
 	<!-- Increase noise and entity penetration -->
 	<append xpath="/items/item[@name='gunBowT1IronCrossbow']/effect_group[@name='gunBowT1IronCrossbow']">
-		<passive_effect name="NoiseMultiplier" operation="perc_add" value=".02"/>
+		<passive_effect name="NoiseMultiplier" operation="perc_add" value=".04"/>
 		<passive_effect name="EntityPenetrationCount" operation="base_add" value="1"/>
 	</append>
 	
@@ -66,7 +66,7 @@
 	
 	<!-- Increase noise -->
 	<append xpath="/items/item[@name='gunBowT1IronCrossbow']/effect_group[@name='gunBowT1IronCrossbow']">
-		<passive_effect name="NoiseMultiplier" operation="perc_add" value=".02"/>
+		<passive_effect name="NoiseMultiplier" operation="perc_add" value=".04"/>
 		<passive_effect name="EntityPenetrationCount" operation="base_add" value="2"/>
 	</append>
 	
