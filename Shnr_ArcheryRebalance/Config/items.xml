@@ -1,0 +1,73 @@
+<configs>
+
+<!-- Bows -->
+
+	<!-- Primitive Bow -->
+	
+	<!-- Sneak damage (Default = 2) -->
+	<set xpath="/items/item[@name='gunBowT0PrimitiveBow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='DamageBonus']/@value">3</set>
+	<set xpath="/items/item[@name='gunBowT0PrimitiveBow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='EntityDamage']/@value">3</set>
+	<set xpath="/items/item[@name='gunBowT0PrimitiveBow']/effect_group[@name='sneak damage bonus']/display_value[@name='dEntityDamageSneak']/@value">3</set>
+	
+	<!-- Reduce noise -->
+	<append xpath="/items/item[@name='gunBowT0PrimitiveBow']/effect_group[@name='gunBowT0PrimitiveBow']">
+		<passive_effect name="NoiseMultiplier" operation="perc_add" value="-.02"/>
+	</append>
+	
+	
+	<!-- Wooden Bow -->
+	
+	<!-- Sneak damage (Default = 2) -->
+	<set xpath="/items/item[@name='gunBowT1WoodenBow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='DamageBonus']/@value">3</set>
+	<set xpath="/items/item[@name='gunBowT1WoodenBow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='EntityDamage']/@value">3</set>
+	<set xpath="/items/item[@name='gunBowT1WoodenBow']/effect_group[@name='sneak damage bonus']/display_value[@name='dEntityDamageSneak']/@value">3</set>
+	
+	<!-- Reduce noise -->
+	<append xpath="/items/item[@name='gunBowT1WoodenBow']/effect_group[@name='gunBowT1WoodenBow']">
+		<passive_effect name="NoiseMultiplier" operation="perc_add" value="-.02"/>
+	</append>
+	
+	
+	<!-- Compound Bow -->
+	
+	<!-- Sneak damage (Default = 2) -->
+	<set xpath="/items/item[@name='gunBowT3CompoundBow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='DamageBonus']/@value">3</set>
+	<set xpath="/items/item[@name='gunBowT3CompoundBow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='EntityDamage']/@value">3</set>
+	<set xpath="/items/item[@name='gunBowT3CompoundBow']/effect_group[@name='sneak damage bonus']/display_value[@name='dEntityDamageSneak']/@value">3</set>
+	
+	<!-- Reduce noise -->
+	<append xpath="/items/item[@name='gunBowT1WoodenBow']/effect_group[@name='gunBowT1WoodenBow']">
+		<passive_effect name="NoiseMultiplier" operation="perc_add" value="-.02"/>
+	</append>
+	
+	
+<!-- Crossbows -->
+	
+	<!-- Iron Crossbow -->
+	
+	<!-- Sneak damage (Default = 2) -->
+	<set xpath="/items/item[@name='gunBowT1IronCrossbow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='DamageBonus']/@value">1.5</set>
+	<set xpath="/items/item[@name='gunBowT1IronCrossbow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='EntityDamage']/@value">1.5</set>
+	<set xpath="/items/item[@name='gunBowT1IronCrossbow']/effect_group[@name='sneak damage bonus']/display_value[@name='dEntityDamageSneak']/@value">1.5</set>
+	
+	<!-- Increase noise and entity penetration -->
+	<append xpath="/items/item[@name='gunBowT1IronCrossbow']/effect_group[@name='gunBowT1IronCrossbow']">
+		<passive_effect name="NoiseMultiplier" operation="perc_add" value=".02"/>
+		<passive_effect name="EntityPenetrationCount" operation="base_add" value="1"/>
+	</append>
+	
+	
+	<!-- Compound Crossbow -->
+	
+	<!-- Sneak damage (Default = 2) -->
+	<set xpath="/items/item[@name='gunBowT3CompoundCrossbow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='DamageBonus']/@value">1.5</set>
+	<set xpath="/items/item[@name='gunBowT3CompoundCrossbow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='EntityDamage']/@value">1.5</set>
+	<set xpath="/items/item[@name='gunBowT3CompoundCrossbow']/effect_group[@name='sneak damage bonus']/display_value[@name='dEntityDamageSneak']/@value">1.5</set>
+	
+	<!-- Increase noise -->
+	<append xpath="/items/item[@name='gunBowT1IronCrossbow']/effect_group[@name='gunBowT1IronCrossbow']">
+		<passive_effect name="NoiseMultiplier" operation="perc_add" value=".02"/>
+		<passive_effect name="EntityPenetrationCount" operation="base_add" value="2"/>
+	</append>
+	
+</configs>
